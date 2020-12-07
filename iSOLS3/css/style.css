@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url('../img/header-bg.jpg');
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 59px;
+}
+
+.menu {
+    display: flex;
+    padding-left: 69px;
+}
+
+.menu li {
+    padding-right: 40px;
+}
+
+.menu li:last-child {
+    padding-right: 0;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.tel {
+    margin-left: auto;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+}
+
+.menu li a:hover, .tel:hover {
+    border-bottom: #fff solid 2px;
+    transition: border-bottom .2s;
+}
+
+.burning-man {
+    display: flex;
+    flex-direction: column;
+    margin-top: 216px;
+    text-transform: uppercase;
+}
+
+.burning-man p {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+.burning-man h1 {
+    color: #fff;
+    margin-top: -9px;
+    font-size: 100px;
+
+}
+
+.burning-man a {
+    display: flex;
+    margin-top: 19px;
+    border: #fff solid 1px;
+    width: 238px;
+    height: 57px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    transition: color, background-color .2s;
+}
+
+.burning-man a:hover {
+    background-color: #fff;
+    color: #000;
+    transition: color, background-color .2s;
+}
+
+.about h1 {
+    color: #000;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 113px;
+    margin-bottom: 58px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleLeft, .articleRight {
+    width: 564px;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.articleText {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 26px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.footerText {
+    display: flex;
+    padding-top: 114px;
+    margin-bottom: 105px;
+}
+
+.footerText p {
+    margin-right: 82px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footerText p:last-child {
+    margin-right: 0px;
+    font-size: 15px;
+}
+
+
